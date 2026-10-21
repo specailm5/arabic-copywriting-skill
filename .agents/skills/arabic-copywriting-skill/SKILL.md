@@ -1,6 +1,6 @@
 ---
 name: arabic-copywriting-skill
-description: "Mastery guide and workshop for Arabic copywriting and advertising: insight, big idea, benefit, proof, headline, body copy, slogan, call to action, brand voice, campaign brief, and social/email/landing-page copy. Applies AIDA, message strategy and creative evaluation; writes multiple headline variants; keeps claims substantiated and refuses manipulation. Grounded in «فن الإعلان» لأ.د. فاربي, «الإعلان الفعال» لعلي فلاح الزعبي, and «الإعلان» (مفاهيم وتطبيقات). Use when the user says: «إعلان», «كوبي رايتنغ», «شعار», «نص إعلاني», «حملة», «محتوى تسويقي», «لاندنج بيدج», «copywriting», «ad copy», «slogan», «campaign».\"
+description: "Mastery guide and workshop for Arabic copywriting and advertising: insight, big idea, benefit, proof, headline, body copy, slogan, call to action, brand voice, campaign brief, and social/email/landing-page copy. Applies AIDA, message strategy and creative evaluation; writes multiple headline variants; keeps claims substantiated and refuses manipulation. Grounded in «فن الإعلان» لأ.د. فاربي, «الإعلان الفعال» لعلي فلاح الزعبي. Use when the user says: «إعلان», «كوبي رايتنغ», «شعار», «نص إعلاني», «حملة», «محتوى تسويقي», «لاندنج بيدج», «copywriting», «ad copy», «slogan», «campaign»."
 license: MIT
 metadata:
     books: فن الإعلان؛ الإعلان الفعال
