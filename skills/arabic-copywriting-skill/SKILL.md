@@ -1,12 +1,12 @@
 ---
 name: arabic-copywriting-skill
-description: "Mastery guide and workshop for Arabic copywriting and advertising: insight, big idea, benefit, proof, headline, body copy, slogan, call to action, brand voice, campaign brief, and social/email/landing-page copy. Applies AIDA, message strategy and creative evaluation; writes multiple headline variants; keeps claims substantiated and refuses manipulation. Grounded in «فن الإعلان» لأحمد فاربي, «الإعلان الفعال» لعلي فلاح الزعبي, and «الإعلان» (مفاهيم وتطبيقات). Use when the user says: «إعلان», «كوبي رايتنغ», «شعار», «نص إعلاني», «حملة», «محتوى تسويقي», «لاندنج بيدج», «copywriting», «ad copy», «slogan», «campaign».\"
+description: "Mastery guide and workshop for Arabic copywriting and advertising: insight, big idea, benefit, proof, headline, body copy, slogan, call to action, brand voice, campaign brief, and social/email/landing-page copy. Applies AIDA, message strategy and creative evaluation; writes multiple headline variants; keeps claims substantiated and refuses manipulation. Grounded in «فن الإعلان» لأ.د. فاربي, «الإعلان الفعال» لعلي فلاح الزعبي, and «الإعلان» (مفاهيم وتطبيقات). Use when the user says: «إعلان», «كوبي رايتنغ», «شعار», «نص إعلاني», «حملة», «محتوى تسويقي», «لاندنج بيدج», «copywriting», «ad copy», «slogan», «campaign».\"
 license: MIT
 metadata:
     books: فن الإعلان؛ الإعلان الفعال
-    authors: أحمد فاربي؛ علي فلاح الزعبي
+    authors: أ.د. فاربي؛ علي فلاح الزعبي
     sources: >
-        «فن الإعلان: كيف تنتج وتدير إعلاناً فعالاً وحملة إعلانية ناجحة» لأحمد فاربي (ترجمة عبد الحكم أحمد الخزامي)،
+        «فن الإعلان: كيف تنتج وتدير إعلاناً فعالاً وحملة إعلانية ناجحة» لأ.د. فاربي (ترجمة عبد الحكم أحمد الخزامي)،
         «الإعلان الفعال: منظور تطبيقي متكامل» لعلي فلاح الزعبي.
     companion-skills: arabic-media-skill, arabic-essay-skill, arabic-balagha-skill, arabic-writing-skill
     language: العربية الفصحى
@@ -17,7 +17,7 @@ metadata:
 
 # مهارة الإعلان والكتابة التسويقية
 
-> مبنية على **«فن الإعلان»** لأحمد فاربي، و**«الإعلان الفعال»** لعلي فلاح الزعبي.
+> مبنية على **«فن الإعلان»** لأ.د. فاربي، و**«الإعلان الفعال»** لعلي فلاح الزعبي.
 > ومسنودة بـ**`arabic-media-skill`** في الجمهور والوسيط، وبـ**`arabic-balagha-skill`** في الصورة، وبـ**`arabic-writing-skill`** في اللغة.
 
 > **تنبيه:** هذه المهارة **تقنع بصدق**، لا تبيع بالكذب. والقاعدة: **فكرة واحدة، وفائدة واضحة، ودليل صادق، ودعوة إلى فعل.**
@@ -1232,7 +1232,7 @@ CTA: ...
 
 | المرجع | المؤلف | ما أُخذ منه | الصفحات |
 | :--- | :--- | :--- | :--- |
-| «فن الإعلان» | أحمد فاربي | الجمهور، الاستهداف، الرسالة، المفهوم، الوعد، الدليل | ٢، ١٧، ٩٥–١٠٧، ١١٢ |
+| «فن الإعلان» | أ.د. فاربي | الجمهور، الاستهداف، الرسالة، المفهوم، الوعد، الدليل | ٢، ١٧، ٩٥–١٠٧، ١١٢ |
 | «الإعلان الفعال» | علي فلاح الزعبي | الفكرة، AIDA، العنوان، النص، الحملة، القياس | ١٠٩، ١٥٦–١٧٢، ١٨٥ |
 
 > **إقرار بالفضل:** هذه المهارة صياغة تعليمية مستقلة لمبادئ الكتابين، مع نقل اقتباسات محدودة بإسنادها إلى صفحاتها. ولا يتضمّن المستودع نسخاً كاملة من الكتب.
