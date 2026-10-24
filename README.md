@@ -35,105 +35,61 @@
 
 ---
 
-## 📂 بنية المهارة ومكوناتها
-
-<pre dir="rtl"><code>
-arabic-copywriting-skill/
-│
-├── skills/arabic-copywriting-skill/          # المهارة (تركيب Agent Skills القياسي)
-│   ├── SKILL.md                              # الدليل الأساسي: من الجمهور إلى الحملة
-│   ├── references/                           # المراجع التفصيلية
-│   │   ├── audience_insight.md               # الجمهور، الرحلة، الاعتراضات
-│   │   ├── big_idea.md                       # الفائدة، الفكرة، الوعد، الدليل
-│   │   ├── copy_craft.md                     # AIDA، العنوان، النص، CTA
-│   │   └── campaign_ethics.md                # الموجز، الوسائط، القياس، الأخلاق
-│   └── examples/                             # النماذج والتمارين
-│       ├── before_after_ad.md                 # إعلان كامل قبل/بعد
-│       └── copy_workshop.md                   # عشرة تمارين
-│
-├── docs/                                     # الموقع المرجعي (GitHub Pages)
-│
-├── .agents/skills/arabic-copywriting-skill/  # مسار Codex و Antigravity
-│
-└── .claude/skills/arabic-copywriting-skill/  # مسار Claude Code
-</code></pre>
-
----
-
-## 🚀 طرق التثبيت والاستخدام (Installation Guide)
-
-تُثبَّتُ المهارةُ إما في مشروعٍ بعينه (**محلياً**)، وإما **عامةً (Global)** لتعمل في كافة المشاريع.
-
----
-
-### أولاً: التثبيت بأمر واحد عبر `npx` (الطريقة الأسرع — موصى به)
+## 🚀 التثبيت
 
 ```bash
 npx skills add specailm5/arabic-copywriting-skill -g -y
 ```
 
-ولاختيار بيئات بعينها أو التثبيت داخل مشروع محدد:
+<details>
+<summary>تثبيت يدوي، أو لبيئة واحدة فقط</summary>
+
+**لبيئات محددة:**
 
 ```bash
 npx skills add specailm5/arabic-copywriting-skill -a claude-code -a codex
-npx skills add specailm5/arabic-copywriting-skill --skill arabic-copywriting-skill -g -y
 ```
 
----
-
-### ثانياً: التثبيت العام لبيئة Claude Code و Codex و Antigravity (يدوياً)
-
-#### لنظام Windows (PowerShell):
+**Windows (PowerShell):**
 
 ```powershell
-# مصدر المهارة داخل المستودع
 $src = "skills\arabic-copywriting-skill"
 
-# 1. تثبيت لبيئة Claude Code
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills\arabic-copywriting-skill"
 Copy-Item -Recurse -Force "$src\*" "$env:USERPROFILE\.claude\skills\arabic-copywriting-skill\"
 
-# 2. تثبيت لبيئة Codex و Agent Skills العامة
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.agents\skills\arabic-copywriting-skill"
 Copy-Item -Recurse -Force "$src\*" "$env:USERPROFILE\.agents\skills\arabic-copywriting-skill\"
 
-# 3. تثبيت لبيئة Google Antigravity / Gemini
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.gemini\config\skills\arabic-copywriting-skill"
 Copy-Item -Recurse -Force "$src\*" "$env:USERPROFILE\.gemini\config\skills\arabic-copywriting-skill\"
 ```
 
-#### لنظام macOS / Linux (Bash):
+**macOS / Linux:**
 
 ```bash
 src=skills/arabic-copywriting-skill
 
-# 1. لبيئة Claude Code
 mkdir -p ~/.claude/skills/arabic-copywriting-skill
 cp -r "$src/." ~/.claude/skills/arabic-copywriting-skill/
 
-# 2. لبيئة Codex و Agent Harness
 mkdir -p ~/.agents/skills/arabic-copywriting-skill
 cp -r "$src/." ~/.agents/skills/arabic-copywriting-skill/
 
-# 3. لبيئة Antigravity / Gemini
 mkdir -p ~/.gemini/config/skills/arabic-copywriting-skill
 cp -r "$src/." ~/.gemini/config/skills/arabic-copywriting-skill/
 ```
 
----
-
-### ثالثاً: التثبيت المحلي داخل مشروع محدد (VS Code Workspace Harness)
+**داخل مشروع واحد (VS Code):**
 
 ```powershell
 New-Item -ItemType Directory -Force -Path ".agents\skills\arabic-copywriting-skill"
 Copy-Item -Recurse -Force "path\to\skills\arabic-copywriting-skill\*" ".agents\skills\arabic-copywriting-skill\"
 ```
 
----
+**بدون بيئة برمجية:** انسخ محتوى [`skills/arabic-copywriting-skill/SKILL.md`](skills/arabic-copywriting-skill/SKILL.md) إلى التعليمات المخصصة أو System Prompt.
 
-### رابعاً: الاستخدام اليدوي (Direct System Prompt / Custom Instructions)
-
-* افتح ملف [`skills/arabic-copywriting-skill/SKILL.md`](skills/arabic-copywriting-skill/SKILL.md) وانسخ محتواه وضعه في خانة **التعليمات المخصصة (Custom Instructions)** أو **System Prompt**.
+</details>
 
 ---
 
@@ -273,27 +229,26 @@ Copy-Item -Recurse -Force "path\to\skills\arabic-copywriting-skill\*" ".agents\s
 
 ---
 
-## ⚠️ حدود المسؤولية
-
-- المهارة **لكتابة الإعلان وتحريره**، لا لاختلاق الادعاءات أو الشهادات.
-- لا تُستغل الخوف أو الضعف أو الأطفال.
-- لا تُقدّم ادعاءً صحياً/قانونياً بلا مختص.
-- لا تمييز على أساس جنس/لون/دين/إعاقة.
-- المستخدم مسؤول عن مراجعة النص النهائي والتحقق من كل ادعاء قبل النشر.
-
----
-
 ## 🤝 المساهمة
 
 نرحب بالمساهمات التي تحسّن المادة أو التحرير أو التوثيق. اقرأ [CONTRIBUTING.md](CONTRIBUTING.md) قبل فتح طلب سحب، والتزم بـ[قواعد السلوك](CODE_OF_CONDUCT.md).
+
+
+---
 
 ## 🛡️ الأمان
 
 إن وجدت مشكلة أمنية، فلا تفتح قضية عامة؛ راجع [SECURITY.md](SECURITY.md).
 
+
+---
+
 ## 📄 سجل التغييرات
 
 راجع [CHANGELOG.md](CHANGELOG.md) لمعرفة ما أُضيف في كل إصدار.
+
+
+---
 
 ## 📬 الدعم
 
@@ -304,3 +259,4 @@ Copy-Item -Recurse -Force "path\to\skills\arabic-copywriting-skill\*" ".agents\s
 ## 📜 الترخيص (License)
 
 هذه المهارة مفتوحة المصدر تحت رخصة [MIT](LICENSE)، ومتاحة للاستخدام الشخصي والتجاري والبحثي لدعم اللغة العربية.
+
